@@ -15,3 +15,11 @@ h1 {
 body {
 	background: #262626;
 }
+
+p {
+	color: white;
+}
+
+hr {
+	border-color: #4D330F;
+}
