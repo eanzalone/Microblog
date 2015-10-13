@@ -11,17 +11,35 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- VENDOR SCRIPTS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <!-- APPLICATION SCRIPTS -->
     <script src="base.js"></script>
   </head>
   <body>
+    <div class="jumbotron">
+      <span></span>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1>We're in good shape.</h1>
+        <div class="col-xs-6 col-xs-offset-3">
+            <div class="input-group">
+              <input type="text" class="form-control" id="inputText" placeholder="Input Field">
+              <span class="input-group-btn">
+                <button class="btn btn-default" id="postSubmit" type="button">Send</button>
+              </span>
+            </div>
+            <hr>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <span id ="postSection">
+            <p>Hardcoded Test Item</p>
+          </span>
         </div>
       </div>
     </div>
